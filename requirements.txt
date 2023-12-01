@@ -2,4 +2,4 @@ plotly
 streamlit
 geopandas
 pandas
-
+geojson
