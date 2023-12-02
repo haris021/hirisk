@@ -17,6 +17,7 @@ mapbox_access_token = "pk.eyJ1IjoiYW1hbnp5MTIzNCIsImEiOiJjbG9land0NjcwazR6MmtvMj
 px.set_mapbox_access_token(mapbox_access_token)
 
 st. set_page_config(layout="wide")
+st.title("HiRISK High Mountain Asia")
 df_avalanches = pd.read_csv("HiAVALDB.csv", encoding = "latin1")
 df_avalanches = df_avalanches.drop(["Unnamed: 0"], axis=1)
 
