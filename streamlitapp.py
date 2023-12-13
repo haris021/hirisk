@@ -276,6 +276,7 @@ elif(event_checkbox == "Avalanches"):
             "text/csv",
             key='download-csv'
             )
+            st.title("References")
             
 else:
     pass
