@@ -276,7 +276,17 @@ elif(event_checkbox == "Avalanches"):
             "text/csv",
             key='download-csv'
             )
-            st.title("References")
+            st.text("")
+    # Provide references
+            st.subheader("Data References")
+            st.markdown(
+            """
+            1.https://github.com/fidelsteiner/HMAGLOFDB
+            2.https://github.com/fidelsteiner/HiAVAL
+            """
+            )
+            st.text("")
+
             
 else:
     pass
